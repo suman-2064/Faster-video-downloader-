@@ -95,8 +95,7 @@ yt-dlp --version
 #### 4. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/faster.git
-cd faster
+git clone https://github.com/suman-2064/Faster-video-downloader-.git
 ```
 
 #### 5. Run the setup script
