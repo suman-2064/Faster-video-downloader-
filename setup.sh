@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # ─────────────────────────────────────────────────────────────────────────────
 #  faster — Setup Script for Termux
-#  GitHub: https://github.com/YOUR_USERNAME/faster
+#  GitHub: https://github.com/suman-2064/Faster-video-downloader-.git
 # ─────────────────────────────────────────────────────────────────────────────
 
 set -e
