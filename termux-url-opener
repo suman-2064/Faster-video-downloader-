@@ -1,0 +1,20 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# ─────────────────────────────────────────────────────────────────────────────
+#  termux-url-opener
+#  Automatically called by Termux when you "Share" a link from any Android app.
+#  Passes the URL directly into the `faster` downloader.
+#
+#  Install:  cp termux-url-opener $PREFIX/bin/termux-url-opener
+#            chmod +x $PREFIX/bin/termux-url-opener
+# ─────────────────────────────────────────────────────────────────────────────
+
+URL="$1"
+
+if [ -z "$URL" ]; then
+  echo "⚠  No URL received."
+  echo "   Usage: termux-url-opener <URL>"
+  exit 1
+fi
+
+# Pass the shared URL directly to faster
+exec faster "$URL"
